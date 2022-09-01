@@ -9,5 +9,5 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
+    # class Meta:
         model = Group
