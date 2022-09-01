@@ -8,4 +8,4 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
     fileds = ['url', 'username', 'email', 'groups']
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
-    
+    class Meta:
