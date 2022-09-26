@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'yoyobackend',
     'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
