@@ -3,5 +3,5 @@ import requests
 # Create your views here.
 response = requests.get('https://api.github.com/users/naveenkrnl')
 
-print(r)
+print(response)
 print(r.content)
