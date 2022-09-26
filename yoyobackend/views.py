@@ -4,4 +4,3 @@ import requests
 response = requests.get('https://api.github.com/users/naveenkrnl')
 
 print(response)
-print(r.content)
